@@ -2,7 +2,7 @@
 
 React Art Gallery is a web application that showcases a beautiful art collection, allows users to interact with artists, view and purchase paintings, and more.
 
-![Demo Screenshot](demo-screenshot.png)
+![Demo Screenshot](https://drive.google.com/file/d/1UKMLOaNdzorq0DalzC0Zu3F8-nn5XQHw/view?usp=sharing)
 
 ## Features
 
