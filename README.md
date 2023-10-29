@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Shubham-Kumar25/assignment-react-art-gallery.git
-   cd react-art-gallery
+   cd assignment-react-art-gallery
    ```
 
 2. Install the project dependencies:
