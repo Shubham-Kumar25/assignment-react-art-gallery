@@ -1,34 +1,37 @@
 # React Art Gallery
 
-React Art Gallery is a web application that allows users to explore and appreciate a collection of beautiful artworks. This project is built using React.js & Tailwind CSS and showcases a variety of paintings, each with details such as name, price, and user ratings.
+React Art Gallery is a web application that showcases a beautiful art collection, allows users to interact with artists, view and purchase paintings, and more.
+
+![Demo Screenshot](demo-screenshot.png)
 
 ## Features
 
-- View a curated selection of paintings.
-- Explore details of each painting, including name, price, and user ratings.
-- Navigate through the artwork collection using a responsive carousel.
+- **User Authentication:** Secure user registration and login using Firebase Authentication.
 
-## Project Structure
+- **Artist Section:** Discover talented artists and explore their work.
 
-The project is structured as follows:
+- **Painting Carousel:** Engaging carousel displaying paintings, prices, and ratings.
 
-- `src`: Contains the source code for the React application.
-  - `components`: React components used for the gallery, sidebar, and other UI elements.
-  - `assets`: Static assets like images and icons.
-  - `App.js`: The main application component.
+- **Posts Feed:** Display and interact with art-related posts.
+
+- **Search and Filters:** Seamlessly search and filter artwork.
 
 ## Getting Started
 
-To run this project locally, follow these steps:
+### Prerequisites
 
-1. Clone the repository to your local machine:
+- [Node.js](https://nodejs.org) installed on your system.
+
+### Installation
+
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/Shubham-Kumar25/assignment-react-art-gallery.git
    cd assignment-react-art-gallery
    ```
 
-2. Install the project dependencies:
+2. Install the required dependencies:
 
    ```bash
    npm install
@@ -40,27 +43,27 @@ To run this project locally, follow these steps:
    npm run dev
    ```
 
-4. Open your browser and navigate to `[http://localhost:5173/](http://localhost:5173/)` or `[http://localhost:3000/](http://localhost:3000/)` to see the React Art Gallery in action. 
+The app should now be running on [http://localhost:5173](http://localhost:5173).
 
-## Dependencies
+### Firebase Configuration
 
-This project uses the following major dependencies:
+This project uses Firebase for authentication. To set up Firebase for your project:
 
-- React.js: A JavaScript library for building user interfaces.
-- React Icons: A library for adding SVG icons as React components.
-- Tailwind CSS: A utility-first CSS framework for styling the application.
+1. Go to [Firebase](https://firebase.google.com/) and create a new project.
 
-## Contributing
+2. Set up Firebase Authentication and get your Firebase project's configuration.
 
-Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
+3. Replace the Firebase configuration in `Firebase.js` with your own.
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and test them.
-4. Commit your changes with descriptive commit messages.
-5. Push your changes to your fork.
-6. Submit a pull request to the main repository.
+### Usage
 
-## Acknowledgements
+- Explore the art gallery, discover artists, and view paintings.
 
-- Special thanks to the contributors and maintainers of React, React Icons, and Tailwind CSS.
+- Sign up or log in to your account to interact with the community and make purchases.
+
+- Enjoy the beautiful world of art!
+
+
+## Acknowledgments
+
+- Thanks to [Firebase](https://firebase.google.com/) for providing authentication services.
